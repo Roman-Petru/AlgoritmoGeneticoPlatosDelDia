@@ -32,7 +32,10 @@ class Main:
             print("Fitness function value: ", str(gen_best.fitness()))
             if gen_best.fitness() > best.fitness():
                 best = gen_best
-        return best.fitness
+
+        print("Best of run Fitness value: ", best.fitness())
+        print("Best of run Chromosome: ", best.number_of_dishes())
+        return
 
 
 if __name__ == "__main__":

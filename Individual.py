@@ -18,8 +18,7 @@ class Individual:
         self.chromosome = chromosome
 
     def fitness(self):
-        genes = [self.chromosome[i:i + 3] for i in range(0, len(self.chromosome), 3)]
-        number_of_each_recipe = [binary_to_decimal(gene) for gene in genes]
+        number_of_each_recipe = self.number_of_dishes()
 
         total_profit = 0
         used_ingredients = {
@@ -40,7 +39,8 @@ class Individual:
                     if ingredient in used_ingredients:
                         used_ingredients[ingredient] += int(recipe_quantity) * quantity
 
-        if all(used_ingredients[ingredient] <= total_ingredients.get(ingredient, 0) for ingredient in used_ingredients): #Restriction function
+        if all(used_ingredients[ingredient] <= total_ingredients.get(ingredient, 0) for ingredient in
+               used_ingredients):  # Restriction function
             total_profit = 0
 
         return total_profit
@@ -48,9 +48,13 @@ class Individual:
     def print(self):
         print("Fitness value: ", self.fitness())
 
+    def number_of_dishes(self):
+        genes = [self.chromosome[i:i + 3] for i in range(0, len(self.chromosome), 3)]
+        return [binary_to_decimal(gene) for gene in genes]
+
 
 def binary_to_decimal(gene):
-    reversed_gene = gene[::-1]  # Reverse the chunk
+    reversed_gene = gene[::-1]
     decimal_value = 0
     for i, bit in enumerate(reversed_gene):
         decimal_value += bit * (2 ** i)
