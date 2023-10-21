@@ -1,0 +1,1223 @@
+Running Genetic Algorithm
+Chromosome  0  :  [0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1]
+Chromosome  1  :  [0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1]
+Chromosome  2  :  [1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0]
+Chromosome  3  :  [0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0]
+Chromosome  4  :  [0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0]
+Chromosome  5  :  [1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1]
+Chromosome  6  :  [1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0]
+Chromosome  7  :  [0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0]
+Chromosome  8  :  [1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0]
+Chromosome  9  :  [1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1]
+Chromosome  10  :  [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Chromosome  11  :  [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+Chromosome  12  :  [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1]
+Chromosome  13  :  [1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0]
+Chromosome  14  :  [1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1]
+Chromosome  15  :  [1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0]
+Chromosome  16  :  [1, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1]
+Chromosome  17  :  [0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0]
+Chromosome  18  :  [1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1]
+Chromosome  19  :  [1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0]
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  1  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  2  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  3  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  4  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  5  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  6  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  7  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  8  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  9  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  10  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  11  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  12  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  13  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  14  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  15  : 
+Fitness value:  1
+Fitness function value:  1
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 85500, 1, 1, 1, 1, 1, 103000, 1, 1, 1, 1, 1]
+Best individual of generation  16  : 
+Fitness value:  103000
+Fitness function value:  103000
+All fitness of new population:  [1, 77000, 1, 111500, 95500, 73500, 123000, 1, 83500, 118000, 1, 79500, 111000, 1, 69500, 94500, 108500, 111500, 106500, 80000]
+Best individual of generation  17  : 
+Fitness value:  123000
+Fitness function value:  123000
+All fitness of new population:  [1, 1, 1, 1, 106500, 112500, 1, 114500, 83500, 115500, 1, 90500, 1, 1, 1, 101500, 75000, 1, 1, 88000]
+Best individual of generation  18  : 
+Fitness value:  115500
+Fitness function value:  115500
+All fitness of new population:  [1, 90500, 103500, 101500, 88000, 105000, 83000, 1, 1, 1, 81000, 1, 106000, 1, 1, 90000, 100500, 100000, 1, 1]
+Best individual of generation  19  : 
+Fitness value:  106000
+Fitness function value:  106000
+All fitness of new population:  [64500, 102500, 92500, 78500, 117500, 1, 1, 1, 1, 89500, 1, 83000, 77500, 81000, 1, 1, 1, 1, 112500, 1]
+Best individual of generation  20  : 
+Fitness value:  117500
+Fitness function value:  117500
+All fitness of new population:  [1, 55000, 1, 89500, 1, 68000, 60000, 83500, 1, 1, 115500, 1, 93000, 1, 75000, 1, 87500, 74000, 1, 109500]
+Best individual of generation  21  : 
+Fitness value:  115500
+Fitness function value:  115500
+All fitness of new population:  [108000, 1, 63000, 1, 1, 1, 1, 1, 69000, 1, 70500, 1, 1, 85000, 102000, 1, 111000, 103500, 1, 82000]
+Best individual of generation  22  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [1, 1, 99000, 1, 1, 1, 1, 80000, 1, 1, 84000, 1, 1, 1, 1, 55500, 1, 1, 1, 1]
+Best individual of generation  23  : 
+Fitness value:  99000
+Fitness function value:  99000
+All fitness of new population:  [1, 123000, 77000, 79000, 1, 103000, 56500, 74500, 1, 1, 82000, 110000, 1, 105000, 97500, 91000, 104000, 102500, 1, 1]
+Best individual of generation  24  : 
+Fitness value:  123000
+Fitness function value:  123000
+All fitness of new population:  [1, 1, 1, 96000, 1, 1, 128000, 1, 104000, 1, 1, 109500, 101500, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  25  : 
+Fitness value:  128000
+Fitness function value:  128000
+All fitness of new population:  [1, 1, 1, 1, 1, 108500, 1, 1, 1, 101500, 1, 1, 1, 1, 1, 91000, 1, 1, 1, 1]
+Best individual of generation  26  : 
+Fitness value:  108500
+Fitness function value:  108500
+All fitness of new population:  [1, 111000, 1, 104000, 85500, 1, 1, 90000, 99000, 1, 134000, 123500, 1, 1, 1, 61500, 1, 1, 76500, 94500]
+Best individual of generation  27  : 
+Fitness value:  134000
+Fitness function value:  134000
+All fitness of new population:  [70000, 1, 1, 1, 137500, 119500, 86500, 1, 1, 112500, 81000, 84500, 98000, 1, 94000, 109500, 1, 1, 1, 124500]
+Best individual of generation  28  : 
+Fitness value:  137500
+Fitness function value:  137500
+All fitness of new population:  [108000, 1, 1, 94500, 114000, 97000, 79000, 1, 1, 1, 1, 122000, 99000, 56000, 124500, 98000, 1, 75000, 1, 1]
+Best individual of generation  29  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [121000, 1, 1, 1, 1, 1, 117000, 1, 1, 102000, 1, 1, 81000, 1, 1, 97500, 1, 1, 1, 100500]
+Best individual of generation  30  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [1, 1, 97500, 103000, 1, 1, 1, 1, 1, 1, 109500, 1, 97500, 77500, 120500, 109000, 1, 1, 1, 1]
+Best individual of generation  31  : 
+Fitness value:  120500
+Fitness function value:  120500
+All fitness of new population:  [1, 1, 116500, 1, 1, 82500, 103000, 1, 1, 1, 81000, 97500, 1, 101000, 1, 118500, 115500, 1, 1, 1]
+Best individual of generation  32  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [1, 1, 1, 104500, 1, 1, 97000, 1, 1, 1, 1, 104500, 1, 1, 92500, 1, 1, 92500, 109500, 1]
+Best individual of generation  33  : 
+Fitness value:  109500
+Fitness function value:  109500
+All fitness of new population:  [92500, 1, 1, 111000, 1, 1, 54000, 1, 94500, 108500, 84000, 89000, 1, 1, 1, 1, 1, 107000, 1, 93500]
+Best individual of generation  34  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [1, 95000, 80500, 68000, 110500, 102000, 1, 112500, 1, 1, 1, 75000, 1, 1, 70000, 79000, 1, 1, 103000, 73000]
+Best individual of generation  35  : 
+Fitness value:  112500
+Fitness function value:  112500
+All fitness of new population:  [103000, 88000, 1, 1, 1, 81000, 67000, 1, 1, 106500, 107000, 85500, 1, 1, 97000, 1, 72500, 1, 1, 1]
+Best individual of generation  36  : 
+Fitness value:  107000
+Fitness function value:  107000
+All fitness of new population:  [72500, 1, 1, 1, 107000, 1, 101500, 65500, 1, 72000, 1, 1, 1, 90000, 95000, 1, 132000, 84000, 80500, 115500]
+Best individual of generation  37  : 
+Fitness value:  132000
+Fitness function value:  132000
+All fitness of new population:  [93000, 1, 1, 1, 1, 1, 94500, 1, 84000, 106500, 1, 94000, 1, 1, 1, 121000, 90500, 1, 97000, 1]
+Best individual of generation  38  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [1, 111000, 57500, 1, 1, 1, 128500, 1, 1, 1, 1, 105000, 112500, 68500, 1, 1, 1, 1, 1, 90500]
+Best individual of generation  39  : 
+Fitness value:  128500
+Fitness function value:  128500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 104500, 1, 1, 80500, 1, 63500, 1, 1, 1, 1, 122000, 90500, 89500, 1]
+Best individual of generation  40  : 
+Fitness value:  122000
+Fitness function value:  122000
+All fitness of new population:  [1, 1, 87500, 83000, 1, 93000, 1, 1, 109500, 1, 1, 90000, 83500, 104500, 90000, 117500, 103500, 1, 1, 127000]
+Best individual of generation  41  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 44500, 1, 80500, 1, 1, 78000, 88000, 100500, 98000, 87000, 65000, 1, 1, 1, 1, 44500, 1, 77000, 1]
+Best individual of generation  42  : 
+Fitness value:  100500
+Fitness function value:  100500
+All fitness of new population:  [90000, 1, 122000, 1, 1, 1, 104500, 1, 1, 1, 119500, 73000, 1, 1, 1, 1, 1, 78500, 89500, 30000]
+Best individual of generation  43  : 
+Fitness value:  122000
+Fitness function value:  122000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 111000, 1, 1, 82000, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  44  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 116000, 114500, 1, 82000, 119000, 115500, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  45  : 
+Fitness value:  119000
+Fitness function value:  119000
+All fitness of new population:  [1, 1, 1, 120000, 1, 112000, 76000, 1, 1, 118000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  46  : 
+Fitness value:  120000
+Fitness function value:  120000
+All fitness of new population:  [1, 127000, 1, 1, 1, 1, 84500, 1, 1, 70000, 127000, 1, 1, 84500, 1, 1, 1, 99000, 115500, 1]
+Best individual of generation  47  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [92500, 84500, 1, 108000, 1, 1, 1, 1, 1, 1, 1, 1, 72500, 101000, 1, 1, 1, 85000, 1, 1]
+Best individual of generation  48  : 
+Fitness value:  108000
+Fitness function value:  108000
+All fitness of new population:  [1, 1, 104000, 1, 56500, 1, 54000, 108000, 1, 1, 86500, 1, 1, 1, 106500, 86500, 116500, 93500, 103000, 1]
+Best individual of generation  49  : 
+Fitness value:  116500
+Fitness function value:  116500
+All fitness of new population:  [1, 73000, 116000, 49000, 113000, 1, 71500, 123000, 1, 1, 122500, 1, 1, 1, 1, 1, 1, 114000, 1, 1]
+Best individual of generation  50  : 
+Fitness value:  123000
+Fitness function value:  123000
+All fitness of new population:  [117000, 1, 68000, 1, 1, 117000, 1, 1, 49000, 1, 1, 1, 1, 1, 97000, 112000, 95000, 1, 1, 1]
+Best individual of generation  51  : 
+Fitness value:  117000
+Fitness function value:  117000
+All fitness of new population:  [102500, 1, 107000, 86000, 1, 78000, 1, 1, 1, 1, 99000, 83500, 122500, 1, 132500, 1, 92500, 1, 1, 54000]
+Best individual of generation  52  : 
+Fitness value:  132500
+Fitness function value:  132500
+All fitness of new population:  [1, 1, 124500, 101000, 1, 1, 96500, 91500, 1, 1, 1, 73000, 1, 1, 115000, 1, 84500, 66000, 1, 1]
+Best individual of generation  53  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [1, 94500, 1, 1, 1, 116500, 1, 102000, 63500, 99500, 1, 1, 1, 90500, 1, 61000, 115000, 90500, 128000, 1]
+Best individual of generation  54  : 
+Fitness value:  128000
+Fitness function value:  128000
+All fitness of new population:  [1, 1, 1, 1, 122500, 113000, 1, 1, 99500, 1, 73000, 1, 105000, 101500, 1, 1, 112000, 69500, 83500, 1]
+Best individual of generation  55  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [91500, 104500, 110000, 1, 98500, 1, 99500, 1, 1, 1, 1, 89500, 1, 96000, 108500, 78500, 1, 111500, 1, 87000]
+Best individual of generation  56  : 
+Fitness value:  111500
+Fitness function value:  111500
+All fitness of new population:  [1, 1, 1, 1, 100500, 80000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 82000]
+Best individual of generation  57  : 
+Fitness value:  100500
+Fitness function value:  100500
+All fitness of new population:  [84000, 1, 1, 109000, 96000, 113000, 1, 94000, 1, 1, 1, 1, 92500, 88000, 58500, 1, 1, 82500, 1, 1]
+Best individual of generation  58  : 
+Fitness value:  113000
+Fitness function value:  113000
+All fitness of new population:  [110500, 1, 80000, 1, 1, 89500, 1, 82000, 68000, 1, 1, 70500, 1, 1, 90500, 1, 1, 90500, 1, 1]
+Best individual of generation  59  : 
+Fitness value:  110500
+Fitness function value:  110500
+All fitness of new population:  [86000, 1, 63000, 116000, 1, 99000, 91500, 1, 1, 1, 97000, 1, 1, 130500, 83500, 1, 120000, 1, 1, 77000]
+Best individual of generation  60  : 
+Fitness value:  130500
+Fitness function value:  130500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 82000, 1, 110000, 95500, 1, 96500, 97000, 1, 104500, 63500, 99500, 1, 1, 131000]
+Best individual of generation  61  : 
+Fitness value:  131000
+Fitness function value:  131000
+All fitness of new population:  [137000, 1, 67500, 1, 1, 86500, 98500, 75000, 90000, 1, 125500, 1, 1, 85500, 1, 1, 1, 1, 1, 1]
+Best individual of generation  62  : 
+Fitness value:  137000
+Fitness function value:  137000
+All fitness of new population:  [1, 95500, 1, 1, 95500, 1, 1, 104500, 1, 124500, 1, 1, 1, 1, 83500, 1, 1, 84500, 1, 74000]
+Best individual of generation  63  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [97500, 1, 97500, 1, 72500, 112500, 1, 1, 112000, 1, 1, 94000, 1, 104500, 1, 1, 95500, 1, 136500, 1]
+Best individual of generation  64  : 
+Fitness value:  136500
+Fitness function value:  136500
+All fitness of new population:  [1, 1, 108000, 1, 1, 1, 1, 104000, 100500, 1, 1, 1, 1, 1, 1, 69500, 66000, 110500, 1, 127500]
+Best individual of generation  65  : 
+Fitness value:  127500
+Fitness function value:  127500
+All fitness of new population:  [1, 102000, 127000, 75000, 1, 1, 53500, 1, 1, 81000, 61000, 94000, 1, 84500, 1, 1, 1, 111000, 118000, 72500]
+Best individual of generation  66  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [97000, 72000, 95000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 104000, 1, 65000, 106000, 65500, 1, 1, 65500]
+Best individual of generation  67  : 
+Fitness value:  106000
+Fitness function value:  106000
+All fitness of new population:  [33000, 1, 125000, 68000, 106000, 91500, 1, 127000, 78000, 68000, 78000, 1, 125000, 1, 75000, 111000, 1, 101000, 81500, 1]
+Best individual of generation  68  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 1, 119500, 1, 1, 1, 1, 109500, 1, 1, 120000, 75000, 1, 1, 102000, 94000, 1, 127000, 1, 78500]
+Best individual of generation  69  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 1, 1, 1, 75000, 1, 1, 1, 104000, 85000, 1, 1, 1, 120000, 118000, 93000, 108500, 85000, 85000, 1]
+Best individual of generation  70  : 
+Fitness value:  120000
+Fitness function value:  120000
+All fitness of new population:  [70500, 1, 1, 136000, 78500, 112500, 108500, 1, 1, 83000, 1, 90500, 1, 1, 98500, 74500, 1, 1, 75000, 1]
+Best individual of generation  71  : 
+Fitness value:  136000
+Fitness function value:  136000
+All fitness of new population:  [1, 1, 94500, 102500, 1, 1, 1, 89500, 97500, 68000, 1, 1, 1, 78500, 88000, 1, 1, 92500, 104000, 92000]
+Best individual of generation  72  : 
+Fitness value:  104000
+Fitness function value:  104000
+All fitness of new population:  [1, 1, 1, 1, 73500, 1, 98500, 1, 76000, 1, 1, 83000, 1, 96500, 1, 1, 96500, 91500, 1, 1]
+Best individual of generation  73  : 
+Fitness value:  98500
+Fitness function value:  98500
+All fitness of new population:  [1, 93500, 1, 82000, 117500, 1, 1, 1, 93500, 1, 1, 1, 1, 1, 1, 1, 94500, 1, 1, 1]
+Best individual of generation  74  : 
+Fitness value:  117500
+Fitness function value:  117500
+All fitness of new population:  [1, 93500, 1, 121000, 1, 1, 1, 1, 1, 1, 72500, 1, 1, 106000, 89500, 82500, 117000, 92000, 65500, 1]
+Best individual of generation  75  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [1, 112000, 1, 1, 1, 51000, 1, 1, 1, 1, 85500, 89500, 1, 1, 1, 1, 77500, 1, 1, 93500]
+Best individual of generation  76  : 
+Fitness value:  112000
+Fitness function value:  112000
+All fitness of new population:  [93500, 74000, 1, 67000, 1, 1, 95500, 67500, 1, 1, 1, 93500, 1, 1, 1, 93500, 67000, 1, 45500, 88500]
+Best individual of generation  77  : 
+Fitness value:  95500
+Fitness function value:  95500
+All fitness of new population:  [85000, 1, 110500, 88000, 64500, 1, 91000, 89000, 1, 108500, 71500, 52000, 1, 79500, 88500, 83500, 77500, 114500, 51000, 76000]
+Best individual of generation  78  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [132500, 67500, 1, 1, 1, 1, 72000, 87500, 78000, 1, 72000, 1, 99000, 1, 1, 114000, 81500, 1, 118500, 53500]
+Best individual of generation  79  : 
+Fitness value:  132500
+Fitness function value:  132500
+All fitness of new population:  [1, 109000, 61500, 1, 91500, 86000, 95500, 88000, 1, 1, 1, 1, 108000, 1, 74500, 1, 1, 1, 1, 1]
+Best individual of generation  80  : 
+Fitness value:  109000
+Fitness function value:  109000
+All fitness of new population:  [1, 85000, 95000, 82000, 72000, 86000, 105500, 1, 118000, 1, 84500, 95000, 108000, 1, 113000, 1, 106000, 1, 87500, 1]
+Best individual of generation  81  : 
+Fitness value:  118000
+Fitness function value:  118000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 95000, 1, 116000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  82  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [1, 93500, 1, 90000, 1, 103000, 1, 106000, 1, 1, 91500, 1, 1, 1, 1, 1, 98500, 100000, 100500, 1]
+Best individual of generation  83  : 
+Fitness value:  106000
+Fitness function value:  106000
+All fitness of new population:  [1, 1, 81000, 1, 1, 1, 102500, 1, 1, 1, 1, 94500, 1, 1, 81000, 112000, 1, 82000, 1, 1]
+Best individual of generation  84  : 
+Fitness value:  112000
+Fitness function value:  112000
+All fitness of new population:  [97500, 93000, 84000, 1, 1, 114500, 103000, 1, 1, 93000, 1, 102500, 92500, 1, 95500, 1, 108500, 89000, 98000, 1]
+Best individual of generation  85  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [113500, 1, 1, 1, 1, 1, 107500, 1, 1, 1, 1, 87500, 90000, 103000, 104500, 112500, 1, 1, 1, 66000]
+Best individual of generation  86  : 
+Fitness value:  113500
+Fitness function value:  113500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 98000, 1, 1, 89000, 74000, 1, 1, 1, 1, 1, 1, 111000]
+Best individual of generation  87  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [1, 98500, 92000, 1, 120000, 107000, 1, 105500, 77500, 1, 68500, 88000, 1, 110500, 1, 1, 1, 99000, 74000, 121500]
+Best individual of generation  88  : 
+Fitness value:  121500
+Fitness function value:  121500
+All fitness of new population:  [1, 1, 1, 1, 70500, 1, 118000, 1, 1, 1, 107500, 1, 1, 116500, 1, 1, 1, 1, 98500, 1]
+Best individual of generation  89  : 
+Fitness value:  118000
+Fitness function value:  118000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 85500, 1, 1, 1, 126000, 1, 108500, 72500, 1]
+Best individual of generation  90  : 
+Fitness value:  126000
+Fitness function value:  126000
+All fitness of new population:  [1, 1, 1, 131500, 89000, 1, 1, 1, 100500, 66500, 1, 84500, 128000, 1, 98500, 1, 1, 1, 107500, 1]
+Best individual of generation  91  : 
+Fitness value:  131500
+Fitness function value:  131500
+All fitness of new population:  [1, 1, 1, 84000, 1, 103500, 1, 1, 82500, 1, 110500, 1, 97500, 1, 115500, 1, 1, 108500, 108000, 122500]
+Best individual of generation  92  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [1, 118500, 1, 97500, 1, 1, 105000, 1, 83000, 121500, 1, 1, 1, 1, 1, 1, 113000, 1, 1, 1]
+Best individual of generation  93  : 
+Fitness value:  121500
+Fitness function value:  121500
+All fitness of new population:  [1, 1, 1, 1, 98000, 100500, 1, 1, 1, 90500, 1, 1, 102500, 118500, 88000, 1, 1, 1, 1, 1]
+Best individual of generation  94  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [100500, 95500, 1, 117500, 1, 78000, 105000, 1, 1, 1, 1, 1, 1, 1, 1, 77000, 1, 67000, 1, 1]
+Best individual of generation  95  : 
+Fitness value:  117500
+Fitness function value:  117500
+All fitness of new population:  [144000, 1, 1, 1, 117500, 1, 80000, 101500, 1, 105500, 127500, 1, 1, 72000, 1, 82500, 1, 1, 90500, 92000]
+Best individual of generation  96  : 
+Fitness value:  144000
+Fitness function value:  144000
+All fitness of new population:  [1, 90500, 78000, 1, 1, 104500, 1, 128000, 100000, 1, 91000, 1, 1, 1, 1, 121000, 112000, 132000, 101500, 1]
+Best individual of generation  97  : 
+Fitness value:  132000
+Fitness function value:  132000
+All fitness of new population:  [104500, 1, 1, 95000, 99000, 103500, 102500, 1, 105000, 94000, 123500, 1, 1, 1, 1, 1, 1, 1, 138500, 1]
+Best individual of generation  98  : 
+Fitness value:  138500
+Fitness function value:  138500
+All fitness of new population:  [1, 1, 1, 129000, 1, 1, 1, 1, 1, 129000, 131000, 122500, 1, 110000, 1, 121000, 1, 1, 1, 116000]
+Best individual of generation  99  : 
+Fitness value:  131000
+Fitness function value:  131000
+All fitness of new population:  [130500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 129000, 127000, 1, 1, 94500, 118500, 108000, 1]
+Best individual of generation  100  : 
+Fitness value:  130500
+Fitness function value:  130500
+All fitness of new population:  [1, 1, 1, 1, 1, 130500, 1, 1, 134000, 111000, 1, 1, 1, 104000, 1, 1, 1, 1, 91500, 1]
+Best individual of generation  101  : 
+Fitness value:  134000
+Fitness function value:  134000
+All fitness of new population:  [1, 1, 123500, 1, 1, 121000, 1, 1, 113000, 1, 131000, 121000, 115000, 117500, 1, 1, 1, 87000, 1, 1]
+Best individual of generation  102  : 
+Fitness value:  131000
+Fitness function value:  131000
+All fitness of new population:  [1, 124000, 105000, 1, 1, 1, 1, 106000, 74000, 1, 1, 1, 1, 115500, 129500, 115500, 121000, 104500, 1, 1]
+Best individual of generation  103  : 
+Fitness value:  129500
+Fitness function value:  129500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 89500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 118500, 1]
+Best individual of generation  104  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [109000, 93500, 1, 98500, 1, 1, 1, 105500, 100000, 1, 63500, 1, 1, 1, 1, 1, 1, 114500, 1, 1]
+Best individual of generation  105  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [1, 100000, 122500, 1, 1, 87500, 1, 69000, 1, 129500, 1, 1, 99500, 1, 1, 78500, 1, 1, 83500, 1]
+Best individual of generation  106  : 
+Fitness value:  129500
+Fitness function value:  129500
+All fitness of new population:  [115500, 1, 1, 1, 97000, 107000, 1, 1, 1, 57500, 130500, 1, 124000, 1, 1, 76000, 1, 1, 89500, 1]
+Best individual of generation  107  : 
+Fitness value:  130500
+Fitness function value:  130500
+All fitness of new population:  [1, 1, 120000, 54000, 122000, 82500, 99500, 79000, 75500, 1, 1, 1, 84000, 1, 73000, 83000, 107000, 93000, 100500, 1]
+Best individual of generation  108  : 
+Fitness value:  122000
+Fitness function value:  122000
+All fitness of new population:  [86000, 1, 81000, 1, 1, 1, 104000, 74000, 1, 1, 1, 1, 57500, 1, 1, 1, 107500, 83500, 1, 1]
+Best individual of generation  109  : 
+Fitness value:  107500
+Fitness function value:  107500
+All fitness of new population:  [1, 104000, 1, 81500, 59000, 1, 90500, 65500, 1, 91000, 1, 86000, 1, 87500, 111500, 1, 110000, 88500, 1, 99500]
+Best individual of generation  110  : 
+Fitness value:  111500
+Fitness function value:  111500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 67500, 1, 1, 105500, 1, 82000, 1, 1, 1, 1, 105500, 1, 1]
+Best individual of generation  111  : 
+Fitness value:  105500
+Fitness function value:  105500
+All fitness of new population:  [1, 1, 80500, 1, 70500, 1, 1, 92500, 1, 102000, 107000, 78000, 105500, 1, 1, 1, 82500, 99000, 95500, 91500]
+Best individual of generation  112  : 
+Fitness value:  107000
+Fitness function value:  107000
+All fitness of new population:  [75500, 99500, 64000, 1, 1, 1, 122000, 110500, 94500, 1, 1, 93000, 81000, 1, 66000, 1, 86500, 69000, 1, 1]
+Best individual of generation  113  : 
+Fitness value:  122000
+Fitness function value:  122000
+All fitness of new population:  [93000, 102500, 1, 1, 116000, 84000, 57500, 1, 1, 56500, 1, 64000, 87000, 1, 1, 1, 1, 40500, 106000, 82000]
+Best individual of generation  114  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [61500, 1, 1, 105500, 114000, 1, 1, 1, 94500, 116000, 1, 1, 1, 77000, 1, 1, 102000, 94000, 48500, 1]
+Best individual of generation  115  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 69500, 104000, 84000, 1, 86500, 94000, 1, 84000, 1, 111500, 97500, 69000, 84500, 138000]
+Best individual of generation  116  : 
+Fitness value:  138000
+Fitness function value:  138000
+All fitness of new population:  [1, 105500, 87000, 1, 1, 90500, 94500, 1, 99500, 116000, 83500, 96500, 1, 106000, 55000, 81000, 109000, 86500, 94500, 83000]
+Best individual of generation  117  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [81500, 106500, 120000, 1, 1, 1, 106000, 65000, 92500, 1, 1, 103000, 1, 83500, 1, 122500, 1, 83500, 68000, 1]
+Best individual of generation  118  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [1, 87000, 1, 1, 1, 103500, 126500, 75500, 1, 1, 1, 1, 106000, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  119  : 
+Fitness value:  126500
+Fitness function value:  126500
+All fitness of new population:  [1, 97500, 1, 1, 1, 1, 1, 89500, 73500, 1, 1, 1, 101500, 1, 1, 1, 1, 1, 100500, 88500]
+Best individual of generation  120  : 
+Fitness value:  101500
+Fitness function value:  101500
+All fitness of new population:  [114500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 81500, 89500, 99500, 101500, 1, 62000, 1, 1]
+Best individual of generation  121  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [1, 80500, 1, 1, 1, 1, 1, 1, 1, 65000, 1, 1, 1, 64500, 73000, 1, 1, 1, 1, 1]
+Best individual of generation  122  : 
+Fitness value:  80500
+Fitness function value:  80500
+All fitness of new population:  [65000, 70000, 70000, 1, 79500, 94500, 1, 1, 1, 67000, 66500, 76000, 1, 82500, 1, 90000, 1, 123000, 62500, 1]
+Best individual of generation  123  : 
+Fitness value:  123000
+Fitness function value:  123000
+All fitness of new population:  [85500, 1, 73500, 1, 76500, 1, 1, 77500, 68500, 1, 64500, 94000, 1, 1, 96000, 89000, 1, 77500, 1, 1]
+Best individual of generation  124  : 
+Fitness value:  96000
+Fitness function value:  96000
+All fitness of new population:  [1, 1, 1, 76000, 1, 1, 1, 59000, 100500, 118500, 1, 1, 92500, 96000, 1, 80500, 1, 84000, 1, 1]
+Best individual of generation  125  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [1, 1, 1, 1, 89500, 70500, 1, 1, 1, 1, 1, 113000, 1, 1, 1, 1, 1, 1, 1, 93000]
+Best individual of generation  126  : 
+Fitness value:  113000
+Fitness function value:  113000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 119500, 1, 1, 1, 116000, 1, 1, 1, 1, 107500, 123500, 77000]
+Best individual of generation  127  : 
+Fitness value:  123500
+Fitness function value:  123500
+All fitness of new population:  [1, 1, 1, 1, 107000, 84000, 90500, 103500, 1, 1, 1, 1, 1, 1, 126500, 1, 132000, 1, 114000, 1]
+Best individual of generation  128  : 
+Fitness value:  132000
+Fitness function value:  132000
+All fitness of new population:  [118500, 1, 1, 1, 1, 1, 1, 1, 66000, 1, 115000, 1, 1, 1, 1, 95500, 1, 1, 103500, 90000]
+Best individual of generation  129  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 113000, 1, 1, 1, 1, 1, 1, 1, 1, 88500, 1, 95000, 89000]
+Best individual of generation  130  : 
+Fitness value:  113000
+Fitness function value:  113000
+All fitness of new population:  [99500, 1, 1, 1, 1, 86500, 1, 87500, 1, 101000, 1, 95500, 106000, 1, 1, 89000, 1, 1, 1, 1]
+Best individual of generation  131  : 
+Fitness value:  106000
+Fitness function value:  106000
+All fitness of new population:  [1, 1, 88000, 1, 1, 1, 96000, 1, 1, 1, 1, 1, 1, 1, 1, 85500, 1, 1, 1, 84500]
+Best individual of generation  132  : 
+Fitness value:  96000
+Fitness function value:  96000
+All fitness of new population:  [78000, 1, 1, 1, 94000, 82000, 85500, 97000, 1, 1, 107000, 1, 1, 104500, 1, 88000, 1, 88000, 1, 77000]
+Best individual of generation  133  : 
+Fitness value:  107000
+Fitness function value:  107000
+All fitness of new population:  [123000, 1, 1, 1, 1, 1, 1, 78000, 1, 1, 1, 1, 88000, 1, 1, 114000, 1, 1, 99500, 1]
+Best individual of generation  134  : 
+Fitness value:  123000
+Fitness function value:  123000
+All fitness of new population:  [1, 1, 130000, 1, 1, 1, 77000, 130000, 110000, 1, 1, 1, 1, 1, 1, 1, 89500, 1, 1, 1]
+Best individual of generation  135  : 
+Fitness value:  130000
+Fitness function value:  130000
+All fitness of new population:  [125500, 1, 1, 103500, 1, 87500, 1, 115000, 65000, 1, 85000, 131500, 1, 1, 135000, 99500, 1, 1, 1, 1]
+Best individual of generation  136  : 
+Fitness value:  135000
+Fitness function value:  135000
+All fitness of new population:  [100500, 110000, 94000, 1, 116000, 74500, 70500, 75000, 1, 1, 1, 1, 1, 1, 1, 130000, 1, 108000, 1, 112000]
+Best individual of generation  137  : 
+Fitness value:  130000
+Fitness function value:  130000
+All fitness of new population:  [1, 105000, 124000, 1, 1, 1, 1, 1, 119000, 1, 109000, 1, 1, 1, 1, 114000, 1, 1, 1, 1]
+Best individual of generation  138  : 
+Fitness value:  124000
+Fitness function value:  124000
+All fitness of new population:  [1, 1, 1, 1, 1, 128000, 1, 108500, 1, 88000, 120500, 86500, 1, 126000, 103500, 1, 1, 1, 114500, 1]
+Best individual of generation  139  : 
+Fitness value:  128000
+Fitness function value:  128000
+All fitness of new population:  [126500, 82500, 1, 99500, 1, 1, 115500, 84500, 1, 1, 95000, 112000, 1, 1, 1, 139500, 1, 108000, 1, 1]
+Best individual of generation  140  : 
+Fitness value:  139500
+Fitness function value:  139500
+All fitness of new population:  [1, 94000, 1, 1, 92500, 95500, 1, 1, 106500, 1, 123500, 1, 111000, 65500, 1, 118500, 1, 116000, 121500, 89500]
+Best individual of generation  141  : 
+Fitness value:  123500
+Fitness function value:  123500
+All fitness of new population:  [112000, 123500, 1, 1, 1, 1, 103500, 130500, 1, 96500, 1, 106000, 113500, 1, 1, 1, 1, 1, 77500, 1]
+Best individual of generation  142  : 
+Fitness value:  130500
+Fitness function value:  130500
+All fitness of new population:  [137000, 1, 1, 1, 1, 1, 114000, 1, 1, 81000, 1, 1, 1, 1, 1, 111500, 99000, 115000, 1, 1]
+Best individual of generation  143  : 
+Fitness value:  137000
+Fitness function value:  137000
+All fitness of new population:  [1, 1, 1, 123000, 99500, 1, 116500, 1, 81000, 105000, 1, 1, 1, 1, 124500, 93500, 86500, 1, 100000, 1]
+Best individual of generation  144  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [74000, 1, 1, 1, 1, 108500, 1, 1, 68000, 1, 125000, 1, 1, 1, 86500, 69500, 111000, 1, 1, 1]
+Best individual of generation  145  : 
+Fitness value:  125000
+Fitness function value:  125000
+All fitness of new population:  [1, 1, 1, 75500, 82000, 119500, 1, 1, 1, 98000, 1, 64500, 86000, 1, 1, 1, 1, 103000, 131500, 1]
+Best individual of generation  146  : 
+Fitness value:  131500
+Fitness function value:  131500
+All fitness of new population:  [1, 127000, 1, 131000, 1, 1, 1, 1, 98000, 1, 1, 1, 67500, 76500, 1, 1, 1, 74000, 1, 1]
+Best individual of generation  147  : 
+Fitness value:  131000
+Fitness function value:  131000
+All fitness of new population:  [1, 1, 1, 1, 70000, 1, 1, 1, 1, 1, 1, 124500, 1, 1, 1, 121500, 1, 1, 101500, 1]
+Best individual of generation  148  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [1, 1, 1, 98500, 91500, 100000, 1, 1, 1, 1, 1, 1, 87500, 1, 1, 1, 1, 91500, 1, 125000]
+Best individual of generation  149  : 
+Fitness value:  125000
+Fitness function value:  125000
+All fitness of new population:  [116000, 1, 100000, 1, 1, 1, 110500, 1, 130000, 1, 103000, 93000, 1, 1, 99500, 102000, 1, 1, 115000, 1]
+Best individual of generation  150  : 
+Fitness value:  130000
+Fitness function value:  130000
+All fitness of new population:  [91500, 97500, 1, 1, 1, 1, 1, 120500, 100000, 1, 88000, 96500, 1, 92000, 1, 102000, 1, 57500, 1, 1]
+Best individual of generation  151  : 
+Fitness value:  120500
+Fitness function value:  120500
+All fitness of new population:  [1, 1, 1, 102500, 63500, 1, 1, 1, 1, 1, 119000, 102000, 1, 96500, 1, 1, 1, 116000, 85500, 117500]
+Best individual of generation  152  : 
+Fitness value:  119000
+Fitness function value:  119000
+All fitness of new population:  [91000, 1, 71000, 119000, 49500, 77000, 1, 1, 1, 100000, 116000, 103500, 1, 69000, 1, 1, 69500, 1, 1, 56000]
+Best individual of generation  153  : 
+Fitness value:  119000
+Fitness function value:  119000
+All fitness of new population:  [70000, 1, 92500, 113000, 1, 1, 86500, 1, 116000, 1, 1, 98500, 1, 84500, 1, 1, 1, 73500, 1, 1]
+Best individual of generation  154  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [1, 1, 98500, 1, 96000, 1, 1, 1, 93000, 1, 1, 1, 1, 1, 74000, 1, 87500, 1, 1, 1]
+Best individual of generation  155  : 
+Fitness value:  98500
+Fitness function value:  98500
+All fitness of new population:  [1, 119000, 1, 84500, 93500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 106500, 106500, 1, 1]
+Best individual of generation  156  : 
+Fitness value:  119000
+Fitness function value:  119000
+All fitness of new population:  [1, 1, 1, 89000, 1, 104500, 1, 1, 1, 102000, 1, 75500, 1, 1, 1, 1, 1, 1, 1, 109500]
+Best individual of generation  157  : 
+Fitness value:  109500
+Fitness function value:  109500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 113500, 1, 1, 121000, 98500, 1, 1, 84500, 1, 1, 1, 1, 1]
+Best individual of generation  158  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [1, 1, 118000, 120500, 1, 1, 106000, 109000, 88000, 1, 104500, 118500, 124500, 1, 68500, 1, 111000, 1, 1, 119500]
+Best individual of generation  159  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [1, 1, 110000, 1, 132000, 1, 1, 104500, 1, 1, 1, 1, 1, 91000, 109500, 1, 1, 1, 91000, 1]
+Best individual of generation  160  : 
+Fitness value:  132000
+Fitness function value:  132000
+All fitness of new population:  [1, 1, 121000, 1, 1, 1, 1, 1, 116500, 98000, 1, 1, 97500, 1, 1, 105000, 88500, 1, 1, 92000]
+Best individual of generation  161  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [98000, 1, 1, 112000, 98500, 1, 94000, 104000, 1, 1, 1, 104500, 1, 1, 1, 100000, 1, 1, 1, 90000]
+Best individual of generation  162  : 
+Fitness value:  112000
+Fitness function value:  112000
+All fitness of new population:  [94000, 1, 1, 114500, 1, 98000, 1, 1, 1, 1, 1, 1, 102500, 95500, 87000, 1, 1, 1, 109500, 1]
+Best individual of generation  163  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [1, 1, 1, 107500, 1, 110000, 58500, 1, 102000, 1, 126500, 105500, 1, 86000, 1, 1, 1, 1, 117000, 1]
+Best individual of generation  164  : 
+Fitness value:  126500
+Fitness function value:  126500
+All fitness of new population:  [114500, 1, 1, 1, 1, 1, 1, 1, 1, 96500, 1, 97500, 1, 80000, 107500, 1, 1, 104500, 1, 102500]
+Best individual of generation  165  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 86000, 1, 125500, 1, 1, 1, 1, 96500, 116500, 92000, 1, 77500, 1, 87000]
+Best individual of generation  166  : 
+Fitness value:  125500
+Fitness function value:  125500
+All fitness of new population:  [1, 1, 96000, 1, 111000, 1, 1, 1, 78000, 1, 62000, 81000, 1, 1, 121000, 110000, 1, 1, 1, 1]
+Best individual of generation  167  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [114000, 1, 110000, 1, 79000, 1, 1, 1, 108500, 86000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 48000]
+Best individual of generation  168  : 
+Fitness value:  114000
+Fitness function value:  114000
+All fitness of new population:  [119000, 1, 1, 1, 104000, 104000, 53000, 1, 134000, 1, 1, 1, 94000, 1, 1, 114500, 88000, 1, 1, 1]
+Best individual of generation  169  : 
+Fitness value:  134000
+Fitness function value:  134000
+All fitness of new population:  [114500, 1, 1, 122500, 1, 1, 1, 1, 1, 102500, 72500, 1, 1, 1, 1, 1, 1, 1, 119000, 1]
+Best individual of generation  170  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [1, 119000, 90000, 90000, 1, 69500, 1, 117500, 1, 1, 1, 73500, 1, 98500, 1, 106000, 1, 1, 1, 91000]
+Best individual of generation  171  : 
+Fitness value:  119000
+Fitness function value:  119000
+All fitness of new population:  [1, 1, 69500, 1, 129500, 1, 68000, 1, 1, 77500, 1, 103000, 80500, 122000, 1, 100500, 1, 1, 1, 1]
+Best individual of generation  172  : 
+Fitness value:  129500
+Fitness function value:  129500
+All fitness of new population:  [95000, 1, 103000, 1, 89500, 1, 106000, 85000, 1, 1, 81500, 112000, 72000, 1, 1, 70500, 116500, 1, 100500, 115500]
+Best individual of generation  173  : 
+Fitness value:  116500
+Fitness function value:  116500
+All fitness of new population:  [87500, 125500, 83000, 1, 1, 1, 1, 89000, 1, 1, 1, 1, 87500, 88000, 1, 1, 1, 1, 97500, 1]
+Best individual of generation  174  : 
+Fitness value:  125500
+Fitness function value:  125500
+All fitness of new population:  [92000, 83000, 1, 1, 86500, 1, 76500, 1, 1, 81000, 1, 1, 86000, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  175  : 
+Fitness value:  92000
+Fitness function value:  92000
+All fitness of new population:  [86500, 1, 64000, 1, 1, 73500, 87000, 1, 1, 77000, 1, 109000, 1, 1, 1, 114500, 104500, 62000, 1, 96000]
+Best individual of generation  176  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [74500, 1, 1, 1, 1, 1, 1, 100500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 66500, 96000]
+Best individual of generation  177  : 
+Fitness value:  100500
+Fitness function value:  100500
+All fitness of new population:  [1, 1, 1, 1, 99000, 1, 66000, 98500, 63500, 1, 93500, 1, 1, 78000, 54500, 1, 75500, 1, 107000, 1]
+Best individual of generation  178  : 
+Fitness value:  107000
+Fitness function value:  107000
+All fitness of new population:  [1, 102500, 1, 109000, 74500, 129000, 108000, 1, 1, 75500, 80000, 120500, 94500, 1, 1, 96000, 1, 1, 93000, 1]
+Best individual of generation  179  : 
+Fitness value:  129000
+Fitness function value:  129000
+All fitness of new population:  [1, 101000, 73500, 98000, 1, 1, 92000, 107000, 66000, 109500, 81500, 86000, 1, 126000, 1, 89500, 66000, 109500, 1, 1]
+Best individual of generation  180  : 
+Fitness value:  126000
+Fitness function value:  126000
+All fitness of new population:  [1, 1, 92000, 1, 1, 1, 90000, 1, 1, 97500, 1, 100000, 99500, 1, 118500, 1, 1, 75500, 1, 122000]
+Best individual of generation  181  : 
+Fitness value:  122000
+Fitness function value:  122000
+All fitness of new population:  [1, 1, 91500, 1, 1, 1, 1, 1, 1, 1, 100500, 104000, 1, 1, 82000, 1, 87000, 118500, 1, 1]
+Best individual of generation  182  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [1, 91000, 97500, 108000, 1, 1, 1, 1, 125000, 110000, 102500, 1, 1, 67500, 1, 1, 1, 111000, 1, 65000]
+Best individual of generation  183  : 
+Fitness value:  125000
+Fitness function value:  125000
+All fitness of new population:  [64000, 1, 1, 75500, 91500, 1, 1, 1, 112500, 1, 1, 78000, 1, 1, 69000, 1, 1, 119500, 1, 1]
+Best individual of generation  184  : 
+Fitness value:  119500
+Fitness function value:  119500
+All fitness of new population:  [131000, 80500, 123500, 1, 96500, 1, 91500, 75000, 1, 86500, 1, 95000, 1, 85500, 65500, 1, 1, 86000, 97500, 1]
+Best individual of generation  185  : 
+Fitness value:  131000
+Fitness function value:  131000
+All fitness of new population:  [1, 83500, 1, 135500, 95500, 107500, 93500, 1, 1, 1, 1, 1, 90500, 94000, 80500, 120500, 89500, 1, 110500, 1]
+Best individual of generation  186  : 
+Fitness value:  135500
+Fitness function value:  135500
+All fitness of new population:  [75000, 96500, 1, 85500, 1, 82500, 79000, 1, 1, 121000, 1, 97000, 119500, 98500, 1, 104500, 120000, 1, 1, 94000]
+Best individual of generation  187  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [91000, 1, 1, 1, 1, 1, 1, 1, 84500, 74500, 1, 1, 1, 1, 1, 1, 96500, 1, 1, 1]
+Best individual of generation  188  : 
+Fitness value:  96500
+Fitness function value:  96500
+All fitness of new population:  [83500, 105500, 1, 1, 98500, 89000, 1, 1, 1, 92500, 1, 1, 1, 112000, 75000, 124500, 1, 1, 99000, 1]
+Best individual of generation  189  : 
+Fitness value:  124500
+Fitness function value:  124500
+All fitness of new population:  [1, 1, 118500, 111500, 105000, 97000, 1, 110000, 1, 1, 138500, 87500, 1, 1, 58500, 101500, 1, 1, 1, 92500]
+Best individual of generation  190  : 
+Fitness value:  138500
+Fitness function value:  138500
+All fitness of new population:  [1, 1, 1, 1, 85000, 120000, 1, 112500, 1, 1, 112500, 72500, 1, 103500, 1, 1, 119500, 1, 90500, 1]
+Best individual of generation  191  : 
+Fitness value:  120000
+Fitness function value:  120000
+All fitness of new population:  [1, 114500, 98500, 90500, 1, 104000, 62000, 1, 1, 1, 1, 1, 110500, 1, 120500, 1, 108500, 1, 1, 1]
+Best individual of generation  192  : 
+Fitness value:  120500
+Fitness function value:  120500
+All fitness of new population:  [1, 1, 1, 89500, 1, 1, 118000, 1, 1, 1, 1, 1, 89500, 1, 86500, 1, 1, 1, 1, 110500]
+Best individual of generation  193  : 
+Fitness value:  118000
+Fitness function value:  118000
+All fitness of new population:  [1, 1, 112000, 1, 128500, 1, 1, 1, 79000, 79500, 1, 117500, 90500, 90500, 89000, 1, 113500, 1, 116500, 1]
+Best individual of generation  194  : 
+Fitness value:  128500
+Fitness function value:  128500
+All fitness of new population:  [94000, 84000, 1, 128500, 1, 100000, 79500, 1, 100500, 1, 1, 1, 1, 1, 88000, 1, 1, 1, 103000, 1]
+Best individual of generation  195  : 
+Fitness value:  128500
+Fitness function value:  128500
+All fitness of new population:  [110500, 79000, 135000, 1, 1, 1, 81000, 1, 73500, 110500, 1, 1, 1, 1, 1, 70500, 98000, 105000, 81500, 107000]
+Best individual of generation  196  : 
+Fitness value:  135000
+Fitness function value:  135000
+All fitness of new population:  [104500, 75500, 95500, 1, 1, 76500, 1, 1, 83000, 1, 1, 119500, 1, 82500, 48500, 92500, 67500, 1, 1, 1]
+Best individual of generation  197  : 
+Fitness value:  119500
+Fitness function value:  119500
+All fitness of new population:  [1, 109000, 84500, 134500, 71000, 1, 116000, 1, 1, 116000, 1, 89000, 101000, 101500, 94000, 1, 1, 115500, 65500, 1]
+Best individual of generation  198  : 
+Fitness value:  134500
+Fitness function value:  134500
+All fitness of new population:  [1, 74500, 1, 1, 92000, 115000, 1, 1, 1, 103500, 1, 1, 1, 1, 1, 1, 1, 90000, 1, 1]
+Best individual of generation  199  : 
+Fitness value:  115000
+Fitness function value:  115000
+All fitness of new population:  [88500, 1, 1, 1, 1, 1, 1, 1, 106500, 1, 1, 1, 98000, 107500, 112500, 90000, 1, 1, 101000, 95000]
+Best individual of generation  200  : 
+Fitness value:  112500
+Fitness function value:  112500
+All fitness of new population:  [88500, 1, 1, 1, 1, 1, 124000, 1, 1, 1, 78500, 1, 97000, 90000, 107500, 1, 1, 104500, 1, 126000]
+Best individual of generation  201  : 
+Fitness value:  126000
+Fitness function value:  126000
+All fitness of new population:  [1, 80000, 116500, 83500, 1, 105000, 1, 1, 106000, 1, 1, 1, 1, 1, 111000, 1, 1, 1, 1, 80000]
+Best individual of generation  202  : 
+Fitness value:  116500
+Fitness function value:  116500
+All fitness of new population:  [1, 89500, 1, 85000, 1, 111500, 81000, 1, 1, 77500, 1, 1, 1, 1, 59000, 1, 1, 136500, 92000, 1]
+Best individual of generation  203  : 
+Fitness value:  136500
+Fitness function value:  136500
+All fitness of new population:  [1, 109000, 114000, 1, 97000, 51000, 92500, 1, 106500, 1, 1, 1, 105000, 1, 88000, 1, 68000, 60500, 1, 1]
+Best individual of generation  204  : 
+Fitness value:  114000
+Fitness function value:  114000
+All fitness of new population:  [96500, 1, 1, 1, 1, 103500, 1, 1, 1, 108000, 1, 1, 1, 77500, 1, 65500, 63000, 88000, 1, 76500]
+Best individual of generation  205  : 
+Fitness value:  108000
+Fitness function value:  108000
+All fitness of new population:  [1, 1, 87500, 1, 72000, 1, 1, 115500, 1, 81000, 1, 1, 93000, 1, 1, 74500, 86500, 41500, 71000, 78000]
+Best individual of generation  206  : 
+Fitness value:  115500
+Fitness function value:  115500
+All fitness of new population:  [1, 108000, 110500, 101500, 1, 65000, 95500, 1, 1, 108500, 1, 105000, 72500, 32500, 1, 1, 1, 1, 1, 1]
+Best individual of generation  207  : 
+Fitness value:  110500
+Fitness function value:  110500
+All fitness of new population:  [1, 65500, 97500, 1, 1, 1, 1, 1, 96000, 1, 1, 1, 1, 1, 1, 1, 62000, 1, 70000, 1]
+Best individual of generation  208  : 
+Fitness value:  97500
+Fitness function value:  97500
+All fitness of new population:  [1, 1, 1, 94000, 49500, 1, 1, 103500, 1, 100000, 1, 1, 1, 85000, 63500, 1, 73000, 1, 1, 65000]
+Best individual of generation  209  : 
+Fitness value:  103500
+Fitness function value:  103500
+All fitness of new population:  [1, 1, 95000, 1, 1, 1, 1, 1, 95500, 82500, 1, 110000, 62000, 1, 1, 1, 1, 1, 1, 77000]
+Best individual of generation  210  : 
+Fitness value:  110000
+Fitness function value:  110000
+All fitness of new population:  [100500, 62000, 72000, 107000, 80000, 110000, 1, 1, 79500, 125000, 91500, 1, 103000, 82500, 1, 1, 105000, 1, 1, 1]
+Best individual of generation  211  : 
+Fitness value:  125000
+Fitness function value:  125000
+All fitness of new population:  [1, 88000, 1, 93000, 1, 1, 1, 95500, 1, 115500, 1, 94500, 58000, 85500, 92500, 1, 109000, 80000, 109000, 114500]
+Best individual of generation  212  : 
+Fitness value:  115500
+Fitness function value:  115500
+All fitness of new population:  [1, 53000, 1, 1, 1, 1, 1, 1, 127000, 75500, 1, 73000, 1, 113000, 79000, 110000, 1, 1, 1, 79500]
+Best individual of generation  213  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 110500, 1, 68000, 56500, 1, 1, 86500, 60500, 1, 1, 1, 124500, 1, 1, 137000, 1, 87500, 1, 1]
+Best individual of generation  214  : 
+Fitness value:  137000
+Fitness function value:  137000
+All fitness of new population:  [92000, 1, 122500, 118000, 1, 93500, 1, 115000, 1, 1, 1, 91500, 1, 28500, 1, 106000, 1, 1, 90500, 1]
+Best individual of generation  215  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [118000, 1, 32000, 43000, 1, 1, 109000, 1, 1, 1, 61500, 1, 1, 1, 114000, 1, 1, 1, 1, 114000]
+Best individual of generation  216  : 
+Fitness value:  118000
+Fitness function value:  118000
+All fitness of new population:  [1, 1, 1, 1, 1, 114000, 1, 110500, 55000, 1, 1, 1, 88000, 1, 1, 72500, 75500, 90000, 1, 87500]
+Best individual of generation  217  : 
+Fitness value:  114000
+Fitness function value:  114000
+All fitness of new population:  [1, 1, 1, 102500, 1, 107000, 1, 116000, 64500, 1, 1, 1, 1, 1, 67000, 75000, 1, 1, 1, 84000]
+Best individual of generation  218  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [1, 88000, 95500, 92000, 76500, 1, 134500, 1, 1, 1, 1, 1, 107000, 1, 94500, 135000, 1, 102500, 76500, 100000]
+Best individual of generation  219  : 
+Fitness value:  135000
+Fitness function value:  135000
+All fitness of new population:  [1, 118000, 1, 127000, 1, 88500, 1, 1, 1, 1, 85500, 1, 1, 1, 79500, 83500, 114500, 1, 102000, 1]
+Best individual of generation  220  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 96500, 1, 1, 1, 1, 108000, 1, 1, 1, 1, 83000, 1, 1, 1, 95500, 123500, 127000, 1, 1]
+Best individual of generation  221  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 1, 127000, 1, 1, 1, 1, 1, 1, 1, 104500, 98500, 76500, 101500, 97500, 123000, 1, 1, 1, 1]
+Best individual of generation  222  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 1, 85500, 128000, 88500, 128500, 1, 97500, 1, 74000, 1, 1, 1, 103500, 1, 1, 1, 1, 1, 142000]
+Best individual of generation  223  : 
+Fitness value:  142000
+Fitness function value:  142000
+All fitness of new population:  [1, 1, 79000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 107000, 108000, 1, 1, 104000, 1, 1]
+Best individual of generation  224  : 
+Fitness value:  108000
+Fitness function value:  108000
+All fitness of new population:  [1, 80000, 110000, 127000, 1, 1, 1, 1, 1, 1, 107000, 1, 1, 1, 106000, 100500, 1, 1, 1, 1]
+Best individual of generation  225  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 1, 98500, 115000, 64500, 72000, 113500, 1, 129500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  226  : 
+Fitness value:  129500
+Fitness function value:  129500
+All fitness of new population:  [103500, 108500, 1, 1, 1, 1, 90500, 118000, 1, 1, 1, 59000, 102000, 85000, 98000, 1, 1, 118000, 129500, 113500]
+Best individual of generation  227  : 
+Fitness value:  129500
+Fitness function value:  129500
+All fitness of new population:  [71000, 1, 102000, 1, 1, 1, 95500, 1, 70500, 1, 1, 1, 97000, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  228  : 
+Fitness value:  102000
+Fitness function value:  102000
+All fitness of new population:  [1, 95000, 1, 1, 1, 1, 75000, 66000, 1, 41500, 1, 1, 93000, 1, 1, 1, 1, 101500, 1, 68500]
+Best individual of generation  229  : 
+Fitness value:  101500
+Fitness function value:  101500
+All fitness of new population:  [66000, 63000, 1, 61500, 1, 83000, 1, 1, 102000, 1, 85500, 1, 84000, 1, 1, 1, 1, 1, 88000, 1]
+Best individual of generation  230  : 
+Fitness value:  102000
+Fitness function value:  102000
+All fitness of new population:  [1, 1, 1, 101500, 63000, 1, 1, 1, 1, 1, 98500, 1, 75000, 1, 1, 90000, 1, 71500, 1, 1]
+Best individual of generation  231  : 
+Fitness value:  101500
+Fitness function value:  101500
+All fitness of new population:  [83500, 85000, 1, 1, 1, 86500, 84500, 68000, 1, 1, 85000, 1, 1, 1, 110500, 125500, 1, 1, 1, 92500]
+Best individual of generation  232  : 
+Fitness value:  125500
+Fitness function value:  125500
+All fitness of new population:  [1, 1, 1, 1, 96500, 91000, 1, 1, 71500, 1, 1, 1, 78000, 1, 79000, 106000, 1, 81000, 1, 1]
+Best individual of generation  233  : 
+Fitness value:  106000
+Fitness function value:  106000
+All fitness of new population:  [1, 95000, 1, 1, 84000, 87500, 1, 1, 90500, 88500, 1, 1, 1, 112500, 1, 1, 74500, 44500, 1, 1]
+Best individual of generation  234  : 
+Fitness value:  112500
+Fitness function value:  112500
+All fitness of new population:  [85500, 1, 1, 106000, 94000, 1, 79000, 1, 1, 58500, 1, 97500, 1, 108500, 1, 80500, 1, 86500, 107500, 99000]
+Best individual of generation  235  : 
+Fitness value:  108500
+Fitness function value:  108500
+All fitness of new population:  [88500, 1, 86000, 85500, 1, 91500, 71000, 118500, 88500, 1, 1, 101500, 1, 71000, 100000, 77500, 69000, 1, 42000, 1]
+Best individual of generation  236  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [81000, 1, 80500, 80500, 1, 102000, 1, 85500, 1, 1, 1, 1, 54000, 1, 116000, 1, 1, 1, 95000, 88000]
+Best individual of generation  237  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [1, 71500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 111000, 72000, 106500, 1, 1, 1, 1]
+Best individual of generation  238  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [101000, 1, 69000, 72000, 1, 84500, 110500, 95500, 1, 120000, 1, 87000, 95500, 124000, 1, 108000, 1, 1, 1, 1]
+Best individual of generation  239  : 
+Fitness value:  124000
+Fitness function value:  124000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 70000, 1, 103500, 1, 1, 40000, 122500, 84500, 1, 115000, 1, 1]
+Best individual of generation  240  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [80500, 87500, 1, 1, 1, 1, 98500, 89500, 1, 50000, 99500, 1, 1, 110500, 1, 1, 1, 1, 90500, 1]
+Best individual of generation  241  : 
+Fitness value:  110500
+Fitness function value:  110500
+All fitness of new population:  [1, 1, 1, 87500, 1, 1, 1, 1, 1, 108500, 1, 74000, 1, 80500, 99500, 1, 120000, 1, 1, 84500]
+Best individual of generation  242  : 
+Fitness value:  120000
+Fitness function value:  120000
+All fitness of new population:  [87000, 58000, 1, 1, 95500, 1, 58500, 90000, 1, 1, 1, 119500, 63500, 1, 111000, 99500, 87500, 1, 1, 93000]
+Best individual of generation  243  : 
+Fitness value:  119500
+Fitness function value:  119500
+All fitness of new population:  [1, 1, 1, 73000, 73000, 1, 79000, 1, 1, 57000, 76500, 1, 69500, 89500, 103500, 1, 91500, 1, 67500, 78500]
+Best individual of generation  244  : 
+Fitness value:  103500
+Fitness function value:  103500
+All fitness of new population:  [83000, 98500, 91000, 91000, 1, 1, 1, 1, 86000, 1, 105000, 87000, 1, 105500, 1, 1, 95500, 88000, 1, 80000]
+Best individual of generation  245  : 
+Fitness value:  105500
+Fitness function value:  105500
+All fitness of new population:  [1, 73500, 1, 1, 134500, 1, 1, 1, 109500, 91000, 1, 1, 1, 1, 1, 1, 1, 129500, 1, 94500]
+Best individual of generation  246  : 
+Fitness value:  134500
+Fitness function value:  134500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 66500, 1, 77500, 1, 78500, 96500, 1, 115500, 69500, 121500, 1, 1, 80000]
+Best individual of generation  247  : 
+Fitness value:  121500
+Fitness function value:  121500
+All fitness of new population:  [1, 52500, 92000, 1, 69500, 93000, 72000, 1, 68500, 1, 1, 1, 1, 105000, 71500, 84000, 1, 1, 1, 102000]
+Best individual of generation  248  : 
+Fitness value:  105000
+Fitness function value:  105000
+All fitness of new population:  [81500, 88000, 72500, 75000, 1, 1, 57000, 1, 46000, 54500, 71500, 89000, 68000, 1, 75500, 1, 1, 71500, 74500, 55500]
+Best individual of generation  249  : 
+Fitness value:  89000
+Fitness function value:  89000
+All fitness of new population:  [1, 1, 111000, 1, 1, 1, 75000, 1, 79000, 1, 44000, 1, 109000, 1, 1, 47500, 1, 75000, 1, 96000]
+Best individual of generation  250  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [1, 1, 96000, 125500, 1, 1, 77500, 1, 1, 98000, 67000, 63000, 1, 1, 1, 1, 1, 84000, 1, 1]
+Best individual of generation  251  : 
+Fitness value:  125500
+Fitness function value:  125500
+All fitness of new population:  [1, 113500, 1, 78000, 1, 1, 1, 1, 1, 1, 90000, 86000, 1, 64000, 84000, 108000, 63500, 85500, 1, 97000]
+Best individual of generation  252  : 
+Fitness value:  113500
+Fitness function value:  113500
+All fitness of new population:  [78000, 85500, 88500, 91000, 1, 56000, 84500, 1, 1, 87500, 1, 1, 81000, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  253  : 
+Fitness value:  91000
+Fitness function value:  91000
+All fitness of new population:  [57000, 1, 74000, 1, 1, 71500, 78500, 1, 1, 102500, 103500, 85000, 64000, 86500, 92000, 93000, 1, 1, 1, 61000]
+Best individual of generation  254  : 
+Fitness value:  103500
+Fitness function value:  103500
+All fitness of new population:  [64500, 1, 93000, 51000, 67000, 43500, 1, 59500, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 74000, 1]
+Best individual of generation  255  : 
+Fitness value:  93000
+Fitness function value:  93000
+All fitness of new population:  [62000, 1, 1, 1, 53000, 80000, 45500, 1, 1, 91000, 75500, 1, 75000, 1, 1, 105500, 1, 1, 1, 98000]
+Best individual of generation  256  : 
+Fitness value:  105500
+Fitness function value:  105500
+All fitness of new population:  [1, 107500, 1, 96500, 1, 1, 94500, 1, 82500, 81500, 1, 1, 1, 53000, 1, 1, 1, 96000, 1, 99000]
+Best individual of generation  257  : 
+Fitness value:  107500
+Fitness function value:  107500
+All fitness of new population:  [1, 72500, 89000, 1, 1, 95500, 109000, 1, 1, 87000, 124000, 102500, 103000, 81000, 81000, 1, 1, 97000, 1, 1]
+Best individual of generation  258  : 
+Fitness value:  124000
+Fitness function value:  124000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 118000, 1, 50500, 1, 93500, 1, 58000, 1, 1, 79000, 96000, 121000, 75500, 1]
+Best individual of generation  259  : 
+Fitness value:  121000
+Fitness function value:  121000
+All fitness of new population:  [65500, 57000, 89500, 1, 1, 58000, 1, 1, 1, 1, 85000, 76000, 1, 49500, 1, 105000, 70000, 1, 75000, 88500]
+Best individual of generation  260  : 
+Fitness value:  105000
+Fitness function value:  105000
+All fitness of new population:  [1, 91500, 1, 1, 1, 1, 1, 74500, 94500, 66000, 1, 1, 55000, 1, 1, 67000, 107000, 81500, 1, 65000]
+Best individual of generation  261  : 
+Fitness value:  107000
+Fitness function value:  107000
+All fitness of new population:  [1, 107000, 1, 98500, 71000, 1, 91500, 1, 1, 1, 70500, 78000, 1, 87500, 1, 91500, 1, 100000, 1, 75000]
+Best individual of generation  262  : 
+Fitness value:  107000
+Fitness function value:  107000
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 108000, 102000, 100500, 103500, 122500, 116500, 1, 1, 63500, 1, 1, 58000, 1, 102000]
+Best individual of generation  263  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [83000, 1, 1, 65000, 1, 125500, 1, 69500, 1, 1, 1, 1, 100500, 1, 116000, 1, 1, 1, 1, 1]
+Best individual of generation  264  : 
+Fitness value:  125500
+Fitness function value:  125500
+All fitness of new population:  [1, 91500, 1, 1, 1, 1, 1, 103000, 114500, 108500, 1, 1, 57000, 94500, 1, 62000, 1, 111000, 82000, 1]
+Best individual of generation  265  : 
+Fitness value:  114500
+Fitness function value:  114500
+All fitness of new population:  [117500, 1, 1, 1, 118500, 1, 1, 1, 1, 102000, 63500, 60000, 99500, 1, 1, 1, 1, 1, 1, 80500]
+Best individual of generation  266  : 
+Fitness value:  118500
+Fitness function value:  118500
+All fitness of new population:  [88000, 67500, 92000, 1, 96000, 1, 68000, 1, 80500, 1, 79500, 84000, 1, 1, 90000, 1, 1, 85000, 84500, 88500]
+Best individual of generation  267  : 
+Fitness value:  96000
+Fitness function value:  96000
+All fitness of new population:  [1, 90000, 1, 83500, 1, 1, 1, 90500, 1, 1, 125500, 86500, 1, 81000, 78000, 1, 116500, 89000, 125000, 89000]
+Best individual of generation  268  : 
+Fitness value:  125500
+Fitness function value:  125500
+All fitness of new population:  [105500, 63000, 1, 1, 1, 101000, 1, 1, 1, 121500, 124000, 69000, 1, 1, 1, 1, 1, 1, 88000, 72500]
+Best individual of generation  269  : 
+Fitness value:  124000
+Fitness function value:  124000
+All fitness of new population:  [1, 1, 1, 1, 83500, 82500, 116000, 137500, 1, 110500, 1, 1, 88000, 1, 91000, 1, 1, 1, 1, 117500]
+Best individual of generation  270  : 
+Fitness value:  137500
+Fitness function value:  137500
+All fitness of new population:  [1, 1, 1, 99500, 91000, 1, 1, 1, 1, 102000, 87500, 70500, 1, 1, 1, 130000, 107500, 59000, 1, 1]
+Best individual of generation  271  : 
+Fitness value:  130000
+Fitness function value:  130000
+All fitness of new population:  [1, 1, 109000, 1, 1, 105000, 79000, 99000, 99000, 1, 1, 1, 1, 1, 106500, 62500, 106500, 1, 1, 1]
+Best individual of generation  272  : 
+Fitness value:  109000
+Fitness function value:  109000
+All fitness of new population:  [97500, 1, 60500, 107000, 133000, 87000, 1, 108500, 1, 1, 107000, 74500, 89000, 1, 72500, 1, 116500, 1, 86000, 1]
+Best individual of generation  273  : 
+Fitness value:  133000
+Fitness function value:  133000
+All fitness of new population:  [1, 1, 1, 105500, 95000, 1, 81500, 1, 1, 42500, 1, 99000, 1, 120500, 102000, 80500, 103000, 86000, 1, 96000]
+Best individual of generation  274  : 
+Fitness value:  120500
+Fitness function value:  120500
+All fitness of new population:  [107500, 1, 79000, 1, 1, 88000, 1, 1, 1, 109000, 1, 1, 1, 1, 1, 1, 1, 111500, 79500, 1]
+Best individual of generation  275  : 
+Fitness value:  111500
+Fitness function value:  111500
+All fitness of new population:  [111000, 64000, 1, 1, 105000, 1, 1, 101000, 1, 1, 103000, 1, 1, 103500, 1, 1, 1, 1, 1, 1]
+Best individual of generation  276  : 
+Fitness value:  111000
+Fitness function value:  111000
+All fitness of new population:  [1, 131500, 1, 1, 112500, 85000, 115500, 1, 1, 1, 1, 1, 105000, 91000, 1, 1, 1, 1, 1, 87500]
+Best individual of generation  277  : 
+Fitness value:  131500
+Fitness function value:  131500
+All fitness of new population:  [1, 86500, 60000, 1, 121500, 1, 1, 121000, 1, 1, 1, 1, 83000, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  278  : 
+Fitness value:  121500
+Fitness function value:  121500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 1, 119000, 109000, 95500, 1, 57000, 1, 1, 1, 75500, 67500, 1, 1]
+Best individual of generation  279  : 
+Fitness value:  119000
+Fitness function value:  119000
+All fitness of new population:  [77000, 1, 70500, 109000, 128000, 107500, 1, 1, 75500, 94500, 1, 81500, 1, 104000, 95500, 1, 1, 91500, 1, 75500]
+Best individual of generation  280  : 
+Fitness value:  128000
+Fitness function value:  128000
+All fitness of new population:  [78500, 1, 1, 121500, 72000, 1, 115000, 117500, 47500, 1, 91500, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  281  : 
+Fitness value:  121500
+Fitness function value:  121500
+All fitness of new population:  [1, 1, 1, 1, 1, 1, 1, 105000, 1, 97000, 1, 1, 93500, 107500, 121500, 65500, 99500, 91500, 1, 1]
+Best individual of generation  282  : 
+Fitness value:  121500
+Fitness function value:  121500
+All fitness of new population:  [1, 93500, 1, 1, 1, 1, 90000, 1, 1, 1, 1, 63500, 1, 1, 91000, 62500, 1, 1, 109000, 1]
+Best individual of generation  283  : 
+Fitness value:  109000
+Fitness function value:  109000
+All fitness of new population:  [85500, 1, 97500, 1, 85000, 1, 1, 1, 1, 86000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  284  : 
+Fitness value:  97500
+Fitness function value:  97500
+All fitness of new population:  [83000, 107500, 1, 1, 103000, 1, 83500, 90500, 95000, 105000, 1, 103500, 1, 77500, 71000, 101000, 87000, 108500, 57000, 100500]
+Best individual of generation  285  : 
+Fitness value:  108500
+Fitness function value:  108500
+All fitness of new population:  [1, 1, 118500, 1, 1, 1, 1, 135000, 1, 1, 1, 1, 1, 91000, 1, 100500, 1, 1, 98500, 89500]
+Best individual of generation  286  : 
+Fitness value:  135000
+Fitness function value:  135000
+All fitness of new population:  [1, 1, 107500, 1, 1, 99000, 119500, 1, 1, 57500, 1, 122500, 108500, 1, 83000, 1, 1, 1, 1, 95000]
+Best individual of generation  287  : 
+Fitness value:  122500
+Fitness function value:  122500
+All fitness of new population:  [1, 1, 1, 1, 1, 95500, 1, 1, 101500, 125000, 89000, 82000, 52500, 1, 85000, 70500, 1, 122000, 89000, 1]
+Best individual of generation  288  : 
+Fitness value:  125000
+Fitness function value:  125000
+All fitness of new population:  [77000, 1, 1, 1, 1, 1, 104000, 1, 126000, 1, 1, 1, 108000, 1, 116000, 86500, 105000, 1, 1, 1]
+Best individual of generation  289  : 
+Fitness value:  126000
+Fitness function value:  126000
+All fitness of new population:  [84000, 110500, 1, 89000, 1, 62000, 1, 97500, 136000, 1, 1, 1, 1, 1, 1, 93500, 110000, 1, 1, 136000]
+Best individual of generation  290  : 
+Fitness value:  136000
+Fitness function value:  136000
+All fitness of new population:  [1, 84500, 89000, 134000, 1, 97000, 1, 1, 118000, 1, 1, 1, 1, 1, 119000, 109500, 1, 117000, 91000, 88500]
+Best individual of generation  291  : 
+Fitness value:  134000
+Fitness function value:  134000
+All fitness of new population:  [140500, 129000, 1, 101000, 95000, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+Best individual of generation  292  : 
+Fitness value:  140500
+Fitness function value:  140500
+All fitness of new population:  [1, 107500, 109500, 147000, 1, 1, 112500, 91000, 1, 76500, 102500, 1, 1, 1, 133500, 1, 117000, 152000, 1, 1]
+Best individual of generation  293  : 
+Fitness value:  152000
+Fitness function value:  152000
+All fitness of new population:  [1, 105500, 1, 1, 1, 100500, 1, 1, 1, 81000, 1, 1, 1, 1, 1, 102500, 102500, 1, 1, 1]
+Best individual of generation  294  : 
+Fitness value:  105500
+Fitness function value:  105500
+All fitness of new population:  [1, 1, 86500, 98000, 1, 92500, 102000, 1, 1, 80500, 87000, 79500, 1, 1, 1, 90500, 1, 108000, 127000, 1]
+Best individual of generation  295  : 
+Fitness value:  127000
+Fitness function value:  127000
+All fitness of new population:  [1, 1, 1, 94500, 1, 106000, 1, 1, 1, 1, 1, 1, 87000, 1, 80500, 106500, 1, 109000, 71500, 88500]
+Best individual of generation  296  : 
+Fitness value:  109000
+Fitness function value:  109000
+All fitness of new population:  [78500, 1, 1, 107000, 84000, 69000, 1, 102000, 1, 72500, 71500, 139000, 75000, 107500, 129000, 84000, 1, 1, 70000, 1]
+Best individual of generation  297  : 
+Fitness value:  139000
+Fitness function value:  139000
+All fitness of new population:  [1, 1, 1, 115500, 1, 78000, 1, 1, 1, 64000, 1, 66500, 116000, 1, 1, 102500, 100500, 94500, 1, 73000]
+Best individual of generation  298  : 
+Fitness value:  116000
+Fitness function value:  116000
+All fitness of new population:  [95500, 1, 90000, 1, 93000, 1, 100000, 1, 65500, 119500, 1, 102000, 75500, 84500, 97500, 1, 1, 113500, 102000, 1]
+Best individual of generation  299  : 
+Fitness value:  119500
+Fitness function value:  119500
+All fitness of new population:  [86000, 1, 100000, 1, 106000, 1, 1, 137000, 1, 1, 108000, 1, 1, 1, 1, 84500, 1, 76500, 117500, 1]
+Best individual of generation  300  : 
+Fitness value:  137000
+Fitness function value:  137000
+Best of run Fitness value:  152000
+Best of run Chromosome:  [4, 6, 4, 0, 7, 1, 0, 0, 1, 5, 3, 1]
