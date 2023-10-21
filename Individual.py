@@ -26,6 +26,10 @@ class Individual:
             'pescado': 0,
             'pollo': 0,
             'papa': 0,
+            'harina': 0,
+            'tomate': 0,
+            'queso': 0,
+            'carne': 0,
         }
 
         for i, quantity in enumerate(number_of_each_recipe):
@@ -39,9 +43,10 @@ class Individual:
                     if ingredient in used_ingredients:
                         used_ingredients[ingredient] += int(recipe_quantity) * quantity
 
-        if all(used_ingredients[ingredient] <= total_ingredients.get(ingredient, 0) for ingredient in
-               used_ingredients):  # Restriction function
-            total_profit = 0
+        # Restriction function
+        if any(total_ingredients[ingredient] < used_ingredients.get(ingredient) for ingredient in
+               used_ingredients):
+            total_profit = 1
 
         return total_profit
 

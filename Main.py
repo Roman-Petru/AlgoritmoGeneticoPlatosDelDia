@@ -45,14 +45,14 @@ class Main:
         plt.plot(x_axis, solutions)
 
         # Add labels and title
-        plt.xlabel('Corridas')
+        plt.xlabel('Generacion')
         plt.ylabel('Ganancia total')
 
         title = ("Cantidad de generaciones: ", config['number_of_generations'], "Tasa de cruzamiento: ", config['crossover_rate'],
                  "Función de cruzamiento: ", config['crossover_type'], "Probabilidad de mutacion: ", config['mutation_probability'])
         plt.title(title)
 
-        subtitle = 'Mejor funcion de la corrida: ', best.fitness(), ' - genes del mejor: ',  best.number_of_dishes()
+        subtitle = 'Mejor funcion de la corrida: ', best.fitness(), '$  -- genes del mejor: ',  best.number_of_dishes()
         plt.suptitle(subtitle, fontsize=12, color='gray')
 
         plt.grid(True)

@@ -4,7 +4,7 @@ recipes = {
         'pescado': 300,
     },
     'Pollo Frito': {
-        'pollo': 700,
+        'pollo': 500,
         'papa': 250,
     },
     'Arroz con Pollo': {
@@ -36,6 +36,7 @@ recipes = {
         'carne': 200,
         'queso': 100,
         'harina': 250,
+        'papa': 250,
     },
     'Fideos con bolognesa': {
         'carne': 200,
@@ -44,7 +45,19 @@ recipes = {
     },
     'Ceviche': {
         'pescado': 350,
-        'tomate': 150
+        'tomate': 250
+    },
+    'Milanesa napolitana': {
+        'carne': 350,
+        'tomate': 200,
+        'queso': 150,
+        'harina': 100,
+        'papa': 250,
+    },
+    'Ensalada': {
+        'papa': 400,
+        'tomate': 200,
+        'queso': 200
     },
 }
 
@@ -56,18 +69,20 @@ prices = {
     'Lasagna': 7500,
     'Tacos de carne': 2500,
     'Tacos de pollo': 2500,
-    'Hamburguesa': 3500,
+    'Hamburguesa': 4000,
     'Fideos con bolognesa': 3500,
     'Ceviche': 5500,
+    'Milanesa napolitana': 4500,
+    'Ensalada': 2500,
 }
 
 total_ingredients = {
-    'arroz': 3000,
-    'pescado': 1500,
-    'pollo': 3000,
-    'papa': 3000,
-    'harina': 2500,
-    'tomate': 3000,
-    'queso': 1000,
-    'carne': 1500,
+    'arroz': 4000,
+    'pescado': 3000,
+    'pollo': 5000,
+    'papa': 5000,
+    'harina': 3500,
+    'tomate': 3500,
+    'queso': 4000,
+    'carne': 4000,
 }

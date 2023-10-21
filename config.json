@@ -1,8 +1,8 @@
 {
-    "population_size": 10,
-    "individual_size": 30,
-    "number_of_generations": 100,
-    "crossover_rate": 0.8,
+    "population_size": 20,
+    "individual_size": 36,
+    "number_of_generations": 200,
+    "crossover_rate": 0.7,
     "crossover_type": "random_binomial",
-    "mutation_probability": 0.1
+    "mutation_probability": 0.2
 }
